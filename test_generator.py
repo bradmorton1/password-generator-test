@@ -1,8 +1,8 @@
 import unittest
 import generator
 
-class TestGenerator(unittest.TestCase):
 
+class TestGenerator(unittest.TestCase):
     def test_is_repeating_with_repeated_characters(self):
         repeated_password = "abccdefgh"
         self.assertEqual(generator.is_repeating(repeated_password), True)
@@ -11,11 +11,14 @@ class TestGenerator(unittest.TestCase):
         unique_password = "abcdefghi"
         self.assertEqual(generator.is_repeating(unique_password), False)
 
-    def test_generate_random_number_for_each_sequence(self):
-        #TODO
+    def test_create_random_string(self):
+        # TODO
+        return False
 
     def test_generate_random_password(self):
-        #TODO
+        # TODO
+        return False
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
